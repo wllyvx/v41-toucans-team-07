@@ -1,7 +1,22 @@
 # Black Pearl
 
-##OverView
-A Page dedicated to Fan of Pirates of Caribbean Movie(A FanPage).
+## OverView
+This is Webapp built for the fans of Pairates Of Carebbian.
+
+## Follow the following steps to get started (🛠️ Installation Steps)
+1. Fork the project.
+Click on the `fork` button on the right side of the main project page.
+2. Clone the project to your local machine by running `git clone` copy the `SSH Key` from the code button on the forked repo.
+3. Create a branch of the clone repo using `git branch branchname`
+4. Check in to the branch using `git checkout branchname`
+
+
+### Wireframe ScreenShots
+
+![]()
+
+
+
 
 Your project's `readme` is as important to success as your code. For 
 this reason you should put as much care into its creation and maintenance
