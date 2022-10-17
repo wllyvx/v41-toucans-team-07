@@ -6,9 +6,17 @@ This is Webapp built for the fans of Pairates Of Carebbian.
 ## Follow the following steps to get started (🛠️ Installation Steps)
 1. Fork the project.
 Click on the `fork` button on the right side of the main project page.
-2. Clone the project to your local machine by running `git clone` copy the `SSH Key` from the code button on the forked repo.
-3. Create a branch of the clone repo using `git branch branchname`
-4. Check in to the branch using `git checkout branchname`
+2.Clone the project to your local machine by running `git clone` copy the `SSH Key` from the `code` button on the forked repo.
+3. Navigate to the project directory `cd v41-toucans-team-07`.
+4. run `npm install` to install the dependencies.
+
+
+
+## Creating or updating Features
+1. Create a branch of the clone repo using `git branch <name-of-the-new-branch>` in order to work on different features.
+2. Check in to the branch using `git checkout <name-of-the-new-branch>` to redirect in that branch.
+ 
+
 
 
 ### Wireframe ScreenShots
