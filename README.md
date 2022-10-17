@@ -13,7 +13,7 @@ Click on the `fork` button on the right side of the main project page.
 
 ### Wireframe ScreenShots
 
-![]()
+![](./Pirate%20of%20the%20Carribean%20wireframe.png)
 
 
 
