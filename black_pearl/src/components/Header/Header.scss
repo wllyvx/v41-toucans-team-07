@@ -10,6 +10,8 @@ header {
     margin: auto;
     .header-img {
       max-width: 100vw;
+      flex: 1 1 0;
+      width: 0;
     }
     .title-container {
       text-align: center;
@@ -18,6 +20,8 @@ header {
       flex-direction: column;
       align-items: center;
       justify-content: flex-start;
+      flex: 1 1 0;
+      width: 0;
       .title {
         font-family: Caribbean Caps;
       }
