@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../../components/Header/Header";
 import Sotd from "../../components/Sotd/Sotd";
 import MovieSection from "../../components/Movie/MovieSection";
-import "./landingpage.scss";
+import "./Home.scss";
 
 const LandingPage = () => {
   return (

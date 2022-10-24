@@ -1,12 +1,12 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
-import LandingPage from "./pages/LandingPage/LandingPage";
+import Home from "./pages/Home/Home";
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <LandingPage />
+      <Home />
       {/* <Header /> */}
     </div>
   );
