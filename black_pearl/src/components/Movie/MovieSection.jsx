@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./MovieSection.scss";
 import { movies } from "./movieData";
 import MovieListComponents from "./MovieList/MovieListComponents";
@@ -16,7 +17,9 @@ function MovieSection() {
     <section>
       <div className="section-container">
         <h3 className="section-title">Movies</h3>
-        <div className="movie-elements-container">{moviesElement}</div>
+        <Link to="/movie">
+          <div className="movie-elements-container">{moviesElement}</div>
+        </Link>
       </div>
     </section>
   );
