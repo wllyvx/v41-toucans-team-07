@@ -2,30 +2,27 @@ export const links = [
   {
     id: 1,
     url: '/',
-    text: 'art',
+    text: 'home',
   },
+
   {
     id: 2,
-    url: '/music',
-    text: 'music',
-  },
-  {
-    id: 3,
     url: '/movie',
     text: 'movie',
   },
+
   {
-    id: 4,
-    url: '/contact',
-    text: 'contact',
+    id: 3,
+    url: '/art',
+    text: 'art',
   },
   {
-    id: 5,
+    id: 4,
     url: '/character',
     text: 'character',
   },
   {
-    id: 6,
+    id: 5,
     url: '/about',
     text: 'about',
   },

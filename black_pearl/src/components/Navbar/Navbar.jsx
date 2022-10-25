@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import { links } from './navbardata';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import './Navbar.scss';
+import { Link } from 'react-router-dom';
+import logo from '../../assets/hero-square.jpg';
 
 function Navbar() {
   const [showLinks, setShowLinks] = useState(false);
@@ -25,7 +27,8 @@ function Navbar() {
     <nav>
       <div className="nav-center">
         <div className="nav-header">
-          <h2 className='logo'>Black Pearl</h2>
+          <img className="logo" src={logo} alt="Black Pearl" />
+          {/* <h2 className="logo">Black Pearl</h2> */}
           <button className="nav-toggle" onClick={toggleLinks}>
             {showLinks ? <FaTimes /> : <FaBars />}
           </button>
@@ -36,7 +39,7 @@ function Navbar() {
               const { id, url, text } = link;
               return (
                 <li key={id}>
-                  <a href={url}>{text}</a>
+                  <Link to={url}>{text}</Link>
                 </li>
               );
             })}
