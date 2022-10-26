@@ -6,6 +6,7 @@ import Movie from "./pages/Movie/Movie";
 import About from "./pages/About/About";
 import Charcter from "./pages/Character/Character";
 import Art from "./pages/Art/Art";
+import Error from "./pages/Error/Error";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/art" element={<Art />} /> {/* <Header /> */}
           <Route path="/about" element={<About />} /> {/* <Header /> */}
           <Route path="/character" element={<Charcter />} /> {/* <Header /> */}
+          <Route path="*" element={<Error />} /> {/* <Header /> */}
         </Route>
       </Routes>
     </BrowserRouter>
