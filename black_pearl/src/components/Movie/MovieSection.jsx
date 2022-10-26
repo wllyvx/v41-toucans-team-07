@@ -11,13 +11,11 @@ function MovieSection() {
     );
   });
 
-  console.log(moviesElement);
-
   return (
     <section>
       <div className="section-container">
         <h3 className="section-title">Movies</h3>
-        <Link to="/movie">
+        <Link to="/movie/:movieId">
           <div className="movie-elements-container">{moviesElement}</div>
         </Link>
       </div>

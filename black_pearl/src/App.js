@@ -4,6 +4,7 @@ import "./index.scss";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home/Home";
 import Movie from "./pages/Movie/Movie";
+import NoMatch from "./components/NoMatch/NoMatch";
 
 const App = () => {
   return (
@@ -11,7 +12,8 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/movie" element={<Movie />} />
+        <Route path="movie/:movieId" element={<Movie />} />
+        <Route path="*" element={<NoMatch />} />
       </Routes>
       {/* <Header /> */}
     </div>

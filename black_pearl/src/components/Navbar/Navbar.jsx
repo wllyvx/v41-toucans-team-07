@@ -1,7 +1,8 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { links } from './navbardata';
-import { FaBars, FaTimes } from 'react-icons/fa';
-import './Navbar.scss';
+import React, { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
+import { links } from "./navbardata";
+import { FaBars, FaTimes } from "react-icons/fa";
+import "./Navbar.scss";
 
 function Navbar() {
   const [showLinks, setShowLinks] = useState(false);
@@ -17,7 +18,7 @@ function Navbar() {
     if (showLinks) {
       linksContainerRef.current.style.height = `${linksHeight}px`;
     } else {
-      linksContainerRef.current.style.height = '0px';
+      linksContainerRef.current.style.height = "0px";
     }
   }, [showLinks]);
 
@@ -25,7 +26,9 @@ function Navbar() {
     <nav>
       <div className="nav-center">
         <div className="nav-header">
-          <h2 className='logo'>Black Pearl</h2>
+          <Link to="/">
+            <h2 className="logo">Black Pearl</h2>
+          </Link>
           <button className="nav-toggle" onClick={toggleLinks}>
             {showLinks ? <FaTimes /> : <FaBars />}
           </button>
