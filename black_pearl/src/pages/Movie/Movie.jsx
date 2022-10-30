@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Movie.scss';
+import MoviePageComponent from '../../components/MoviePageComponent/MoviePageComponent';
+
 const Movie = () => {
   return (
-    <div style={{ color: 'blue', textAlign: 'center' }}>
-      <h2>This is Movies</h2>
-      <Link to="/">homepage</Link>
+    <div className="movie-component">
+      <MoviePageComponent />
     </div>
   );
 };
